@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+
+</head>
+<header>
+    <div> <img class="logo" src="/img/alura.png" alt="logo"></div>
+    <div class="heads">
+        <div>
+            <h1 class="title">#Challenge</h1>
+        </div>
+        <div>
+            <p class="subtitle">Por: Jhon Cuvi</p>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="main">
+        <div class="proceso">
+            <div class="campos">
+                <textarea id="valorIngresado" class="valorIngresado">
+
+                </textarea>
+                <button class="btnencriptar" onclick=(encriptar())>Encriptar</button>
+            </div>
+            <div class="campos">
+                <textarea id="valorDesencriptado">
+
+                </textarea>
+                <button class="btndesencriptar" onclick=(desencriptar())>Desencriptar</button>
+
+            </div>
+        </div>
+        <div class="copiar">
+            <div class="mainC">
+                <textarea id="valorEncriptado" disabled>
+
+                </textarea>
+                <button class="btnCopy" onclick=(copy())>Copiar </button>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+
+</html>
